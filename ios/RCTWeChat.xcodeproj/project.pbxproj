@@ -262,7 +262,7 @@
 				TargetAttributes = {
 					10D6D7A31F160C250066F0F3 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = QMP96B5DPW;
+						DevelopmentTeam = 539V26NNCS;
 						ProvisioningStyle = Automatic;
 					};
 					86D238411BD0BB9E00C75D01 = {
@@ -270,6 +270,7 @@
 						DevelopmentTeam = JP4369ZCVM;
 					};
 				};
+
 			};
 			buildConfigurationList = 86D2383D1BD0BB9E00C75D01 /* Build configuration list for PBXProject "RCTWeChat" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -428,8 +429,9 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = QMP96B5DPW;
+				DEVELOPMENT_TEAM = 539V26NNCS;				
 				INFOPLIST_FILE = RCTWeChatTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -446,8 +448,9 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = QMP96B5DPW;
+				DEVELOPMENT_TEAM = 539V26NNCS;
 				INFOPLIST_FILE = RCTWeChatTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

@@ -37,7 +37,7 @@
                BlueprintName = "RCTWeChatTests"
                ReferencedContainer = "container:RCTWeChat.xcodeproj">
             </BuildableReference>
-         </TestableReference>
+         </TestableReference>         
       </Testables>
       <MacroExpansion>
          <BuildableReference
@@ -47,7 +47,7 @@
             BlueprintName = "RCTWeChatTests"
             ReferencedContainer = "container:RCTWeChat.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </MacroExpansion>      
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -69,7 +69,7 @@
             BlueprintName = "RCTWeChatTests"
             ReferencedContainer = "container:RCTWeChat.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </MacroExpansion>      
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "NODE_ENV"
@@ -94,7 +94,7 @@
             BlueprintName = "RCTWeChatTests"
             ReferencedContainer = "container:RCTWeChat.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </MacroExpansion>      
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
