@@ -26,6 +26,7 @@ import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
+import com.tencent.mm.opensdk.constants.Build;
 import com.tencent.mm.opensdk.modelbase.BaseReq;
 import com.tencent.mm.opensdk.modelbase.BaseResp;
 import com.tencent.mm.opensdk.modelmsg.SendAuth;
@@ -123,7 +124,7 @@ public class WeChatModule extends ReactContextBaseJavaModule implements IWXAPIEv
             callback.invoke(NOT_REGISTERED);
             return;
         }
-        callback.invoke(null, api.isWXAppSupportAPI());
+        callback.invoke(null, api.getWXAppSupportAPI() >= Build.PAY_SUPPORTED_SDK_INT);
     }
 
     @ReactMethod
